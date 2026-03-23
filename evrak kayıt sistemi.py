@@ -1,5 +1,5 @@
 # Evrakları tutmak için boş bir liste oluşturuluyorum
-evraklar = []  # Evraklar burada saklanıyor
+evraklar  []  # Evraklar burada saklanıyor
 
 # Yeni evrak eklemek için fonksiyonumuz
 def evrak_ekle():
@@ -19,7 +19,7 @@ def evrak_ekle():
     }
 
     #evrak sözlüğünü listeye ekliyoruz
-    evraklar.append(evrak)
+    evraklarappend(evrak)
     print(" Evrak başarıyla eklendi!")
 
 # Tüm evrakları listeleyen fonksiyonu yazıyoruz
@@ -94,3 +94,4 @@ def menu():
 
 # Programı başlatan ana fonksiyon çağrısı
 menu()
+11
